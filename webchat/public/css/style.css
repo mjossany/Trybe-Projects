@@ -1,0 +1,28 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+.headerContainer {
+  background: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+};
+
+.titleContainer {
+  display: flex;
+}
+
+.nickNameContainer {
+  display: flex;
+  width: 50%;
+};
+
+/* .userInfoContainer {
+  display: flex;
+  flex-direction: row;
+}; */

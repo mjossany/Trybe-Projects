@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header>
+    <h1>Minha Lista de Tarefas</h1>
+    <p id='funcionamento'>Clique duas vezes em um item para marcá-lo como completo</p>
+  </header>
+  <section>
+    <div>
+      <input id='texto-tarefa' type="text" placeholder="Adicione uma tarefa">
+      <button id='criar-tarefa'>Add</button>
+    </div>
+  </section>
+  <section>
+    <div>
+      <ol id='lista-tarefas'></ol>
+    </div>
+  </section>
+  <section>
+    <div>
+      <button id='mover-cima'>Mover para cima</button>
+      <button id='mover-baixo'>Mover para baixo</button>
+    </div>
+    <div>
+      <button id='apaga-tudo'>Apagar tudo</button>
+      <button id='remover-finalizados'>Apagar finalizados</button>
+      <button id='salvar-tarefas'>Salvar Tarefas</button>
+      <button id='remover-selecionado'>Remover selecionado</button>
+    </div>
+  </section>
+  <script src="./script.js"></script>
+</body>
+</html>

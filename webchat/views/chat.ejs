@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <title>Webchat</title>
+  </head>
+  <body>
+    <header class="headerContainer">
+      <div class="titleContainer">
+        <h1>Webchat</h1>
+      </div>
+      <div class="nicknameContainer">
+        <form id="nicknameForm" class="nicknameForm">
+          <div class="userInfoContainer">
+            <label for="user">Usuário:</label>
+            <p id="userNickname" data-testid="online-user" name="user"></p>
+          </div>
+            <input id="nicknameInput" data-testid="nickname-box"/>
+          <button data-testid="nickname-button">Salvar</button>
+        </form>
+      </div>
+    </header>
+    <div>
+      <ul id="messages">
+        <% if (messages && messages.length > 0) { %>
+          <% messages.forEach(({ chatMessage, nickname, timestamp }) => { %>
+            <li data-testid="message"><%=`${timestamp} ${nickname} ${chatMessage}` %> </li>
+          <% }) %>
+        <% } %>
+      </ul>
+    </div>
+    <div>
+      <form id="messageForm">
+        <input id="messageBox" data-testid="message-box"/>
+        <button id="sendButton" data-testid="send-button">
+          Enviar
+        </button>
+      </form>
+    </div>
+    <div>
+      <ul id="onlineUsers">
+
+      </ul>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="./js/chat.js"></script>
+  </body>
+</html>

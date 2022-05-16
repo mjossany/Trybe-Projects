@@ -1,0 +1,6 @@
+use('StoreManager');
+
+db.products.find();
+db.sales.find();
+db.sales.deleteMany({});
+db.products.deleteMany({});

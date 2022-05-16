@@ -1,0 +1,11 @@
+#colors {
+  display: flex;
+  justify-content: center;
+}
+
+.ball {
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
+  border-radius: 50%;
+}

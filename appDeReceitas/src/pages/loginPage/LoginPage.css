@@ -1,0 +1,30 @@
+.login-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.form-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-login {
+  height: 45px;
+  margin: 5px;
+}
+
+.confirm-button {
+  background-color: #f7ce5d;
+  border: white;
+  border-radius: 5px;
+  box-shadow: 1px 5px 10px rgb(250, 194, 194);
+  color: black;
+  height: 65px;
+  margin-top: 50px;
+  width: 300px;
+}

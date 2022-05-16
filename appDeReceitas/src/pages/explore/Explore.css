@@ -1,0 +1,15 @@
+.explore-btn {
+  background-color: #f7ce5d;
+  border: white;
+  border-radius: 5px;
+  box-shadow: 1px 5px 10px rgb(250, 194, 194);
+  display: flex;
+  flex-direction: column;
+  font-size: 27px;
+  height: 50px;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  width: 80%;
+}

@@ -1,0 +1,53 @@
+header {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35px;
+  text-align: left;
+}
+
+p {
+  color: darkgray;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+}
+
+.input-image {
+  width: 25px;
+}
+
+
+.info-container {
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.buttons-container {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  width: 105px;
+}
+
+.img-header {
+  width: auto;
+  height: auto;
+  max-width: 360px;
+  max-height: 360px;
+}
+
+.icons {
+  height: 26px;
+  width: 26px;
+}

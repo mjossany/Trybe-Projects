@@ -1,0 +1,98 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.cart-button {
+  height: 21px;
+  margin-right: 5px;
+}
+
+.bloco-aside {
+  padding-right: 20px;
+}
+
+.aside {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+.cards-div {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  text-align: center;
+  width: 200px;
+}
+
+.card-title {
+  font-size: 15px;
+  font-weight: 800;
+}
+
+.card-image {
+  width: 200px;
+}
+
+.cart-card {
+  display: flex;
+}
+
+.erro {
+  color: red;
+}
+
+header {
+  align-items: center;
+  border: red solid 1px;
+  display: flex;
+  height: 100px;
+  justify-content: center;
+}
+
+main {
+  display: flex;
+}
+
+.card-detail {
+  border: 1px solid black;
+  display: flex;
+  margin: 5px;
+  text-align: center;
+  width: 85%;
+}
+
+.product-detail {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+}
+
+.card-image-detail {
+  width: 50%;
+}
+
+.rating {
+  border: red 1px solid;
+  display: flex;
+  margin-left: 5px;
+  width: 85%;
+}
+
+.rating-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.shopping-cart {
+  align-items: flex-start;
+  display: flex;
+}

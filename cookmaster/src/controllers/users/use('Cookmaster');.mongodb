@@ -1,0 +1,7 @@
+use('Cookmaster');
+
+db.recipes.find();
+db.users.find();
+db.recipes.deleteMany({});
+
+

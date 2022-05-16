@@ -1,0 +1,18 @@
+.buttonFilter {
+  background-color: rgb(252, 240, 240);
+  border: white;
+  border-radius: 5px;
+  box-shadow: 1px 5px 10px rgb(250, 194, 194);
+  display: inline-flex;
+  flex-flow: wrap;
+  flex-direction: row;
+  font-size: 22px;
+  height: 50px;
+  justify-content: end;
+  line-height: 50px;
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-top: 30px;
+  overflow: hidden;
+  width: 103px;
+}
